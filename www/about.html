@@ -1,0 +1,178 @@
+<html>
+<head>
+<title>ASCER</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0"/>
+<link rel="stylesheet" href="css/styles.css"/>
+    
+<script type="text/javascript">
+        var $ = document; // shortcut
+        var head  = $.getElementsByTagName('head')[0];
+        var link  = $.createElement('link');
+        link.rel  = 'stylesheet';
+        link.type = 'text/css';
+        
+        if(navigator.userAgent.match(/iPhone/i)){
+            link.href = 'css/ascer_iphone.css';
+        }else if(navigator.userAgent.match(/iPad/i)) {
+            link.href = 'css/ascer.css';
+        }else{
+            link.href = 'css/ascer_iphone.css';        
+        }
+        
+        link.media = 'screen, projection';
+        head.appendChild(link);
+        
+</script>
+
+<script type="text/javascript" src="js/slider/jquery.js"></script>
+<script type="text/javascript" src="libs/underscore-min.js"></script>
+    <script type="text/javascript" src="iphone-cordova-2.7.0.js"></script>
+
+<script type="text/javascript" src="js/ascer.js"></script>
+<script type="text/javascript" src="js/jquery.retina.js"></script>    
+
+    
+<script type="text/javascript">
+        var supportsOrientationChange = "onorientationchange" in window,
+        orientationEvent = supportsOrientationChange ? "orientationchange" : "resize";
+        
+        window.addEventListener(orientationEvent, function() {
+                                var alphabetic= $('#leftAbout');	
+                                var height = $(alphabetic).height();
+                                $('#about_information').css('height',height);
+                                }, false);  
+    
+    
+        function loadImages(){
+            
+            $('#img1').append('<img src="css/images/iphone/about-img-1.png" class="floatRight" />');
+            $('#center_img_about').append('<img src="css/images/iphone/about-img-2.png" />');
+            $('#img2').append('<img src="css/images/iphone/about-img-3.png" class="floatRight" /> ');
+            
+            $('#logo_1').append('<a href="http://www.spaintiles.info/default.aspx?&lang=en-GB"><img src="css/images/about-tos-logo.png" /></a>');
+            $('#logo_2').append('<a href="http://www.ascer.es/homeinstitucional/default.aspx?lang=en-GB"><img src="css/images/about-ascer-logo.png" /></a>');
+            $('#logo_3').append('<a href="http://www.icex.es"><img src="css/images/about-icex-logo.png" /></a>');
+            $('#logo_4').append('<a href="http://europa.eu/index_en.htm"><img src="css/images/about-union-logo.png" /></a>');
+            $('#logo_5').append('<a href="http://www.aseban.com"><img src="css/images/about-spanbath-logo.png" /></a>');
+
+    }
+    
+    //$('#left_text_about img').retina();
+    $(document).ready(function() {
+                      loadImages();
+                      $('img').retina();
+    });
+</script>
+    
+    
+    
+</head>
+<body onLoad="touchScroll('about_information')">
+    <div id="content">       
+        
+        <div id="mainMenu">
+            <a id="buttonList" href="index.html"  class="buttonMenu">
+                <div id="imgList" class="imageButton"></div>
+                <div class="textButton">List</div>
+            </a>
+            <a id="buttonMap" href="map.html" class="buttonMenu">
+                <div id="imgMap" class="imageButton"></div>
+                <div class="textButton textColor">Map</div>
+            </a>
+            <a id="buttonFavorites" href="favourite_list.html" class="buttonMenu">
+                <div id="imgFavorites" class="imageButton"></div>
+                <div class="textButton textColor">Favorites</div>
+            </a>
+            <a id="buttonAbout" class="buttonMenu-hover">
+                <div id="imgAbout-hover" class="imageButton"></div>
+                <div class="textButton textColor">About</div>
+            </a>  
+            
+            <div id="ascerLogo"></div>
+        </div>
+        
+        
+        <div id="leftAbout" class="non-scroll">            
+        </div>
+        <div id="about_information" class="striped">
+            <div id="title_about_1">tile of spain welcomes you to</div>
+            <div id="title_about_2">CERSAIE '12</div>
+
+            <div id="left_text_about">
+                                <p>
+                <span class="text_style_1">Spain</span> is innovation. It is not secret that Spain has a <span class="text_style_3">long history</span> in the field of ceramics, pioneering new techniques for centuries. Although today’s industry has its origin in this noble handcrafted tradition, the process has evolved over the last 30 years into a <span class="text_style_3">leading high-tech</span> business with great success in today’s world markets.
+                </p>
+                <div id="img1"></div>
+                <p>
+                The Spanish <span class="text_style_3">presence</span> at CERSAIE is <span class="text_style_3">the major foreign contingent</span> at the exhibition. This year the Spanish pavilion will showcase <span class="text_style_2">93 exhibitors</span> in more than 7,800 square meters. 
+                </p>
+                <p>
+                See, touch, feel and experience our ceramic tiles in any of our exhibitors’ spaces. Most <span class="text_style_3">new innovations</span> have emerged at the hands of Spanish companies: digital inkjet printing systems, rectified and slim tiles, ceramic ventilated façades, etc. This will continue and most of the new innovations to come will emerge once more from Spain.
+                </p>
+                <p>
+                <span class="text_style_2">Tile of Spain</span>, a quality product that brings you <span class="text_style_2">new trends</span>, applications, <span class="text_style_3">architectural</span> and <span class="text_style_3">sustainable uses</span> to create spaces with more human dimension. We hope that you will <span class="text_style_3">visit us</span> and that you will enjoy a brief taste of what Spain has to offer.
+
+                </p>
+            </div>             
+
+            <div id="center_img_about"></div>  
+            
+            <div id="left_text_about_2">
+               
+                <p><span class="text_style_3">Tile of Spain</span></p>
+                <p>
+                As the voice of the industry, ASCER (the Ceramic Tile Manufacturers’ Association) promotes ceramic tiles through the collective brand “Tile of Spain”. This is a joint effort of the members of ASCER, with the support of the Spanish Institute of Foreign Trade (ICEX). 
+                </p>
+                 <div id="img2"></div>
+                <p>
+                In 2011, the Spanish tile manufacturing industry’s <span class="bold">turnover</span> was <span class="text_style_3">2,597 million euros, 70%</span> of which were earned in <span class="bold">exports to more than 180 different countries</span>. Today, Spain is the <span class="bold">second biggest exporter of ceramic tiles in Europe</span>, and the third in the world. The industry is the third sector that brings more trade surplus to Spain, and the first in commercial coverage. 
+                </p>
+                <p>
+                To learn more about Tile of Spain, its companies and innovative products, you can subscribe -for free- to the magazine Ceraspaña at <a href="http://www.ceraspana.es">www.ceraspana.es</a>
+                </p>
+                <p>
+                ASCER, the ceramic tile manufacturers’ association in Spain, represents almost <span class="bold">150 member</span> companies, that is, <span class="bold">95% of the national production</span>. Their purpose is to support, represent and promote the general and common interests of the ceramic tile sector, providing a wide set of services to its members, as well as combined activities which enable the companies to obtain superior results.
+                </p>
+
+            </div>
+            
+            <div id="about_contact">                
+                <div id="about_contact_left">
+                    <div id="about_contact_title">
+                        <div class="text_style_1">Contact us at:</div>
+                    </div>
+                    <div id="about_contact_title_1"> ASCER </div>
+                    <div id="about_contact_title_2"> Ginjols 3, Castell&oacute;n, 12003, Spain</div>
+                    <div id="about_contact_title_3"> T:<a href="tel:+34964727200"> +34 964 727 200</a> </div>
+                    <div id="about_contact_title_4"> F:<a href="tel:+34964727212"> +34 964 727 212</a> </div>   
+                    <div id="about_contact_title_5"><a href="mailto:global@ascer.es"> global@ascer.es</a> </div>   
+                    <div id="about_contact_title_6"><a href="http://www.spaintiles.info">www.spaintiles.info</a></div>   
+            
+                </div>
+                <div id="about_contact_right">
+                    <div id="logos">
+                        <div id="logo_1">
+                        
+                        </div>
+                        <div id="logo_2"></div>
+                        <div id="logo_3"></div>
+                        <div id="separator" class="iphone_separator"></div>
+                        <div id="logo_4"></div>
+                        <div id="logo_5"></div>
+                    </div>
+                </div>
+   </div>
+    
+<script type="text/javascript">
+    
+     var alphabetic= $('#leftAbout');	
+     var height = $(alphabetic).height();
+     $('#about_information').css('height',height);
+     
+</script>
+
+
+</body>
+    
+</html>

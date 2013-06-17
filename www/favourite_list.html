@@ -1,0 +1,114 @@
+<html>
+<head>
+<title>ASCER</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0"/>
+<link rel="stylesheet" href="css/styles.css"/>
+<script type="text/javascript">
+        var $ = document; // shortcut
+        var head  = $.getElementsByTagName('head')[0];
+        var link  = $.createElement('link');
+        link.rel  = 'stylesheet';
+        link.type = 'text/css';
+        
+        if(navigator.userAgent.match(/iPhone/i)){
+            link.href = 'css/ascer_iphone.css';
+        }else if(navigator.userAgent.match(/iPad/i)) {
+            link.href = 'css/ascer.css';
+        }else{
+            link.href = 'css/ascer_iphone.css';        
+        }
+        
+        link.media = 'screen, projection';
+        head.appendChild(link);
+
+        
+</script>
+
+<script type="text/javascript" src="js/slider/jquery.js"></script>
+<script type="text/javascript" src="libs/underscore-min.js"></script>
+    <script type="text/javascript" src="iphone-cordova-2.7.0.js"></script>
+
+<script type="text/javascript" src="js/ascer.js"></script>
+   <script type="text/javascript" src="js/EmailComposer.js"></script> 
+<script type="text/javascript">
+        var supportsOrientationChange = "onorientationchange" in window,
+        orientationEvent = supportsOrientationChange ? "orientationchange" : "resize";
+        
+        window.addEventListener(orientationEvent, function() {
+                                var alphabetic= $('#leftFavourites');	
+                                var height = $(alphabetic).height();
+                                $('.slider-content').css('height',height);
+                                }, false);  
+   
+    
+    $(document).ready(function() {
+                      getFavourites(); 
+                      $('img').retina();
+                      });
+
+</script>
+    
+<style>
+	/* The following styles are used only for this page - the actual plugin styles are in slidernav.css */
+	* { margin: 0; padding: 0; }
+	a { text-decoration: none; }
+	h2, h3 { margin: 0 0 20px; text-shadow: 2px 2px #fff; }
+	h2 { font-size: 28px; }
+	h3 { font-size: 22px; }
+	pre { background: #fff; width: 460px; padding: 10px 20px; border-left: 5px solid #ccc; margin: 0 0 20px; }
+	p { width: 500px; font-size: 18px; line-height: 24px; margin: 0 0 30px; }
+</style>
+</head>
+<body onLoad="touchScroll('scroll')">
+    <div id="content">       
+        
+        <div id="mainMenu">
+            <a id="buttonList" href="index.html" class="buttonMenu">
+                <div id="imgList" class="imageButton"></div>
+                <div class="textButton">List</div>
+            </a>
+            <a id="buttonMap" href="map.html" class="buttonMenu">
+                <div id="imgMap" class="imageButton"></div>
+                <div class="textButton textColor">Map</div>
+            </a>
+            <a id="buttonFavorites" class="buttonMenu-hover">
+                <div id="imgFavorites-hover" class="imageButton"></div>
+                <div class="textButton textColor">Favorites</div>
+            </a>
+            <a id="buttonAbout" href="about.html"  class="buttonMenu">
+                <div id="imgAbout" class="imageButton"></div>
+                <div class="textButton textColor">About</div>
+            </a>  
+            
+            <div id="ascerLogo"></div>
+        </div> 
+       
+        
+        <div id="secondaryMenu">
+            <div id="subitem_company" class="subitem-hover">
+                <div class="textSubmenu_company submenu-font-company"> Favorite companies</div>
+            </div>
+            <div id="subitem_company" class="subitem-hover" style="float:right;margin-right:10px;">
+                <div class="textSubmenu_company submenu-font-company"><a href="#" id="share" style="text-decoration:none;">Share</a></div>
+            </div>
+        </div> 
+
+        <div id="leftFavourites" class="non-scroll"></div>
+        
+        <div id="companyListFavourites" class="striped"> 
+             <div id="slider">
+                    <div id="scroll" class="slider-content">
+                        <ul>
+                            <!-- AQUI  VAN LAS EMPRESAS -->
+                        </ul>
+                    </div>
+            </div>
+        </div>
+        
+   </div>
+
+    
+</body>
+    
+</html>

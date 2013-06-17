@@ -1,0 +1,1585 @@
+/* STYLE ASCER */
+
+a { text-decoration: none; }
+
+#mainMenu{
+    background-color: white;
+    width: 100%;
+    float: left;
+    margin-bottom: 10px;
+}
+
+#secondaryMenu{
+    background: none repeat scroll 0 0 #262224;
+    height: 25px;
+    padding-top: 5px;
+    width: 100%;
+    position: absolute;
+    top: 55px;
+    z-index: 20;
+}
+
+#secondaryMenuMap{
+    background: none repeat scroll 0 0 #262224;
+    height: 25px;
+    padding-top: 5px;
+    width: 320px;
+    position: absolute;
+    top: 55px;
+    z-index: 20;
+}
+
+.secondary-iphone{
+
+    height: 55px !important;
+}
+
+#ascerLogo{
+    float: right;
+    width: 68px;
+    height: 45px;
+    background: url("images/iphone/tos-main-logo.png") repeat scroll 0 0 transparent;
+    background-size:68px 45px;
+    margin-right: 5px;
+    margin-top: 2px;
+}
+
+.buttonMenu-hover{
+    float: left;
+    background: url("images/iphone/menu-hover.png") repeat scroll 0 0 transparent; 
+    background-size:59px 50px;
+    height: 50px;   
+    width:59px; 
+}
+.buttonMenu{
+    float: left;
+    background: white;
+    width:59px;
+    height: 50px;    
+}
+
+.imageButton{
+    float: left;
+    margin-left: 36%;
+    margin-top: 15%;
+}
+
+.textColor{
+    color: #878787 !important;
+}
+.textButton{
+    float: left;
+    width: 100%;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 8pt;
+    font-weight: bold;
+    margin-top: 3px;
+    color: #000;
+}
+
+#imgList{
+    background: url("images/iphone/menu-list-normal.png") repeat scroll 0 0 transparent;
+    background-size:20px 19px;  
+    width: 20px;
+    height: 19px;
+}
+#imgList-hover{
+    background: url("images/iphone/menu-list-hover.png") repeat scroll 0 0 transparent;
+    background-size:20px 19px; 
+    width: 20px;
+    height: 19px;
+}
+
+#imgMap{
+    background: url("images/iphone/menu-pin-normal.png") repeat scroll 0 0 transparent;
+    background-size:20px 19px; 
+    width: 20px;
+    height: 19px;
+}
+#imgMap-hover{
+    background: url("images/iphone/menu-pin-hover.png") repeat scroll 0 0 transparent;
+    background-size:20px 19px; 
+    width: 20px;
+    height: 19px;
+}
+
+#imgFavorites{
+    background: url("images/iphone/menu-star-normal.png") repeat scroll 0 0 transparent;
+    background-size:20px 19px; 
+    width: 20px;
+    height: 19px;
+}
+#imgFavorites-hover{
+    background: url("images/iphone/menu-star-hover.png") repeat scroll 0 0 transparent;
+    background-size:20px 19px; 
+    width: 20px;
+    height: 19px;
+}
+
+#imgAbout{
+    background: url("images/iphone/menu-info-normal.png") repeat scroll 0 0 transparent;
+    background-size:20px 19px; 
+    width: 20px;
+    height: 19px;
+}
+#imgAbout-hover{
+    background: url("images/iphone/menu-info-hover.png") repeat scroll 0 0 transparent;
+    background-size:20px 19px; 
+    width: 20px;
+    height: 19px;
+}
+
+
+
+/***************************** SUBMENU ***************************/
+.submenu-font{
+    font-size: 10pt;
+}
+
+.submenu-font-left{
+    font-size: 9pt !important;
+}
+
+#subtitle{
+    color: white;
+    float: left;
+    margin-left: 5px;
+    margin-top: 5px;
+    display: none;
+}
+
+#subitem1{
+    float: left;
+    height: 35px;
+    margin-left: 20px;
+    margin-top: -8px;
+    width: 35px;
+}
+
+#subitem2{
+    float: left;
+    height: 35px;
+    margin-left: 5px;
+    margin-top: -8px;
+    width: 90px;
+}
+
+#subitem3{
+    float: left;
+    height: 35px;
+    margin-left: 5px;
+    margin-top: -8px;
+    width: 90px;
+}
+
+#subitem4{
+    float: left;
+    height: 35px;
+    margin-left: 5px;
+    margin-top: -8px;
+    width: 50px;
+}
+
+.subitem-hover{
+      background: url("images/iphone/mennu-hover.png") repeat scroll 0 0 transparent;
+}
+
+.subitem-hover-bajo{
+      background: url("images/iphone/mennu-hover-bajo.png") repeat scroll 0 0 transparent;
+}
+
+.textSubmenu{
+    color: #FFFFFF;
+    float: left;
+    margin-left: 2px;
+    margin-top: 10px;
+    text-align: center;
+    width: 100%;
+}
+
+.textSubmenu a,
+.textSubmenu a:hover,
+.textSubmenu a:visited, 
+.textSubmenu a:active{
+    color:#FFF;
+}
+
+#searchInput{
+    float: left;
+    font-size: 9pt;
+    height: 25px;
+    padding-bottom: 1px;
+    padding-top: 1px;
+    width: 90%;
+    border: none;
+    letter-spacing: 1px;
+    margin-left: 2px;
+    margin-top: 2px;
+    color: #878787;
+}
+
+#searchIcon{
+    background: url("images/iphone/icon-search.png") repeat scroll 0 0 transparent;
+    background-size: 12px 12px;
+    float: left;
+    height: 12px;
+    margin-left: 5px;
+    margin-top: 9px;
+    width: 12px;
+}
+
+#searchContainer{
+    background: none repeat scroll 0 0 white;
+    float: right;
+    height: 30px;
+    margin-right: 1px;
+    width: 99%;
+    border: 1px solid #979797;
+    margin-top: 0px;
+}
+
+.hallItem{
+    float: left;
+    height: 32px;
+    margin-left: -1px;
+    margin-top: -8px;
+    width: 29px;
+    margin-bottom: 2px;
+}
+
+.separador{
+
+    float: left;
+    height: 45px;
+    margin-left: 2px;
+    margin-top: 4px;
+    margin-right: 2px;
+    width: 1px;
+    margin-bottom: 2px;
+    border-right: 1px solid #fff;
+}
+
+.hallItem_bajo{
+    height: 31px !important;
+    margin-top: 2px !important;
+
+}
+
+.textSubmenu_iphone_general{
+    color: #FFFFFF;
+    float: left;
+    margin-left: 2px !important;
+    margin-top: 14px !important;
+    text-align: center;
+    font-size: 10pt !important;
+}
+
+.textSubmenu_iphone{
+    color: #FFFFFF;
+    float: left;
+    margin-left: 2px !important;
+    margin-top: 7px !important;
+    text-align: center;
+    font-size: 16pt !important;
+
+}
+
+.textSubmenu_iphone_bajo{
+    color: #FFFFFF;
+    float: left;
+    margin-left: 2px !important;
+    margin-top: 0px !important;
+    text-align: center;
+    font-size: 16pt !important;
+
+}
+
+.bold{
+    font-weight: bold;
+}
+
+/*************************** SLIDER **********************************************/
+
+.slider {    
+    position: absolute;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+}
+
+.slider ul { 
+
+list-style: none;
+
+}
+.slider-content { 
+    position: absolute;
+    width: 100%; 
+    display: block; 
+    overflow: hidden; 
+    height: 100%; 
+    left: 30px;
+}
+
+.slider-content ul { 
+    float: left; 
+    width: 100%; 
+    display: block; 
+    position: relative; 
+    height: 100%;
+}
+.slider-content ul li { float: left; width: 100%; }
+.slider-content ul ul li a { padding: 0px 5px; display: block; border-bottom: 1px solid #f3f3f3; text-transform: capitalize; }
+.slider-content ul ul li a:hover { background: #f3faff; border-color: #d5ebf9; }
+
+.slider-content .title { 
+    text-indent: 10px; 
+    background: #f2f2f2; 
+    color: #000; 
+    width: 100%; 
+    float: left; 
+    font-weight: bold; 
+    text-transform: uppercase;
+    font-size: 10pt;
+    padding-top: 2px;
+    padding-left: 2px;
+    margin-left: -2px;
+}
+
+
+/*************************** COMPANY LIST ****************************************/
+
+
+#companyList{
+    position: absolute;
+    top:120px;
+    left: 0px;
+    width: 99%;
+    margin-left: 1px;
+}
+
+#companyListFavourites{
+    position: absolute;
+    top:85px;
+    left: 0px;
+    width: 99%;
+    margin-left: 1px;
+}
+
+
+#leftAlphabetic{
+    top:117px;
+    left: 0px;
+    background: #f2f2f2;
+    width: 30px;
+    border-right: 1px solid #e0e0e0;
+}
+
+.letter{
+    position: relative;
+    height: 13px;
+    width:25px;
+    text-align: center;
+    color: #878787;
+	padding-top: 1px;
+	padding-bottom: 1px;
+	padding-left: 2px;
+	padding-right: 2px;
+}
+
+.row{
+    height: 45px;
+    border-bottom: solid #e0e0e0 1px;
+}
+.row:active{
+    background: #e0e0e0;
+}
+
+#companyListFavourites .favorited{
+
+    margin-right: 105px !important;  
+}
+
+#companyListFavourites .no-favorited{
+
+    margin-right: 105px !important;  
+}
+
+.arrow{
+    background: url("images/iphone/arrow-big.png") no-repeat scroll 0 0 transparent;
+    background-size: 13px 20px;
+    float: right;
+    height: 20px;
+    margin-bottom: 5px;
+    margin-right: 30px;
+    margin-top: 15px;
+    width: 13px;
+}
+
+.arrow-iphone{
+    margin-right: 2px !important;
+}
+
+.situation{
+    float:right;
+    font-size: 13px;
+    width: 90px;
+    margin-top: 8px;
+    margin-right: 2px;
+    overflow: hidden;
+}
+
+.hall{
+    position: relative;
+    height: 15px;
+    font-size: 8pt;
+}
+
+.stand{
+    position: relative;
+    height: 15px;
+    font-size: 8pt;
+}
+
+.identity{
+    float:left;
+    margin-left: 5px;
+    width:45%;
+    height: 45px;
+    text-decoration: none;
+    color: #262224; 
+    overflow: hidden;
+    font-size: 13px;
+}
+
+.rowtitle{
+    position: relative;
+    width: 100%;
+    height: 12px;
+    font-weight: bold;
+    overflow: hidden;
+    margin-top: 11px;
+    font-size: 8pt;
+
+}
+.rowtitle a{
+    color: #262224;
+}
+
+.rowsubtitle{
+    position: relative;
+    width: 100%;
+    height: 15px;
+    overflow: hidden;
+    font-size: 8pt;
+}
+.rowsubtitle a{
+    color: #262224;
+}
+
+.favorited {
+    background: url("images/iphone/star-big-selected.png") no-repeat scroll 0 0 transparent;
+    background-size: 25px 25px;
+    float: left;
+    height: 25px;
+    width: 25px; 
+    margin-top: 10px;   
+}
+
+.favorited-favourites{
+	background: url("images/iphone/star-big-selected.png") no-repeat scroll 0 0 transparent;
+    background-size: 25px 25px;
+    float: left;
+    height: 25px;
+    width: 25px; 
+    margin-top: 8px;   
+}
+
+.no-favorited-favourites{
+	background: url("images/iphone/star-big.png") no-repeat scroll 0 0 transparent;
+    background-size: 25px 25px;
+    float: left;
+    height: 25px;
+    width: 25px; 
+    margin-top: 8px;   
+}
+
+.no-favorited {
+    background: url("images/iphone/star-big.png") no-repeat scroll 0 0 transparent;
+    background-size: 25px 25px;
+    float: left;
+    height: 25px;
+    width: 25px; 
+    margin-top: 10px;   
+}
+
+.favorited-company {
+    background: url("images/iphone/star-big-selected.png") no-repeat scroll 0 0 transparent;
+    background-size: 25px 25px;
+    float: right;
+    height: 25px;
+    width: 25px; 
+}
+
+.no-favorited-company {
+    background: url("images/iphone/star-big.png") no-repeat scroll 0 0 transparent;
+    background-size: 25px 25px;
+    float: right;
+    height: 25px;
+    width: 25px;    
+
+}
+
+
+/**************************** MAPA **************************************/
+
+#prevNext{
+ position: absolute;
+    top:55px;
+    left: 0px;
+    width: 100%;
+    overflow: hidden;
+    margin-bottom: 0px;
+}
+
+#mapContainer{
+    position: absolute;
+    top:155px;
+    left: 0px;
+    width: 100%;
+    overflow: hidden;
+    margin-bottom: 0px;
+}
+
+#generalMapItem{
+    float: left;
+    height: 55px;
+    margin-left: 0px;
+    margin-top: -8px;
+    width: 60px;
+    padding-top: 10px;
+    font-size: 15px !important;
+    margin-right: 1px;
+}
+
+.hall-iphone{
+    display: none;
+}
+
+
+#leftMap{
+    top:115px;
+    left: 0px;
+    width: 1px;
+}
+
+#leftFavourites{
+    top:85px;
+    left: 0px;
+    width: 1px;
+}
+
+
+#leftCompany{
+    top:90px;
+    left: 0px;
+    width: 1px;
+}
+
+
+
+.hotpot{
+     background: url("images/hotspot-normal.png") no-repeat scroll 0 0 transparent;
+     background-size: 37px 36px;
+     width: 37px;
+     height: 36px;
+}
+
+.hotpot-selected{
+     background: url("images/hotspot-selected.png") no-repeat scroll 0 0 transparent;
+     background-size: 37px 36px;
+     width: 37px;
+     height: 36px;
+}
+
+#stand_name{
+    margin-top: 0px;
+    color: #000;
+    font-size: 9px;
+    text-align: center;
+    width: 150px;
+    margin-left: -55px;
+    font-weight: bold;
+}
+
+/************************* MAPA GENERAL **************************************/
+#generalMap{
+    background: url("images/iphone/general.png") no-repeat scroll 0 0 transparent;
+    height: 730px;
+    position: relative;
+    width: 690px;
+    margin: 15px;
+}
+
+#hall15Container {
+    position: relative;
+    top: 13px;
+    left: 15px;
+    width: 41px;
+    height: 40px;
+}
+
+#hall14Container {
+    left: 82px;
+    position: relative;
+    top: -40px;  
+    width: 41px;
+    height: 40px;
+}
+
+#hall18Container {
+    left: 215px;
+    position: relative;
+    top: -42px;
+    width: 41px;
+    height: 40px;
+}
+
+#hall19Container {
+    left: 108px;
+    position: relative;
+    top: 84px;
+    width: 41px;
+    height: 40px;
+}
+
+#hall20Container {
+    left: 45px;
+    position: relative;
+    top: 145px; 
+    width: 41px;
+    height: 40px;
+}
+
+#hall21Container {
+    left: 246px;
+    position: relative;
+    top: 12px;
+    width: 41px;
+    height: 40px;
+}
+
+#hall22Container {
+    left: 187px;
+    position: relative;
+    top: -27px;
+    width: 41px;
+    height: 40px;
+}
+
+#hall25Container {
+    height: 40px;
+    left: 320px;
+    position: relative;
+    top: 96px;
+    width: 41px;
+}
+
+#hall26Container {
+    height: 40px;
+    left: 320px;
+    position: relative;
+    top: 2px;
+    width: 41px;
+}
+
+#hall29Container {
+    height: 40px;
+    left: 377px;
+    position: relative;
+    top: -345px;
+    width: 41px;
+}
+
+#hall30Container {
+    height: 40px;
+    left: 465px;
+    position: relative;
+    top: -335px;
+    width: 41px;
+}
+
+#hall33Container {
+    height: 40px;
+    left: 265px;
+    position: relative;
+    top: -80px;
+    width: 41px;
+}
+
+#hall34Container {
+    height: 40px;
+    left: 230px;
+    position: relative;
+    top: 210px;
+    width: 41px;
+}
+
+#hall35Container {
+    height: 40px;
+    left: 385px;
+    position: relative;
+    top: -81px;
+    width: 41px;
+}
+
+#hall36Container {
+    height: 40px;
+    left: 620px;
+    position: relative;
+    top: -90px;
+    width: 41px;
+}
+
+#hall44Container {
+    height: 40px;
+    left: 303px;
+    position: relative;
+    top: -265px;
+    width: 41px;
+}
+
+#hall45Container {
+    height: 40px;
+    left: 445px;
+    position: relative;
+    top: -196px;
+    width: 41px;
+}
+
+/*********************************FIN MAPA GENERAL *********************************************/
+
+
+#pavilion14Map{
+    background: url("images/pavilion14.jpg") no-repeat scroll 0 0 transparent;
+    height: 696px;
+    position: relative;
+    width: 746px;
+    margin: 15px;
+}
+
+#pavilion15Map{
+    background: url("images/pavilion15.jpg") no-repeat scroll 0 0 transparent;
+    height: 823px;
+    position: relative;
+    width: 735px;
+    margin: 15px;
+}
+
+#pavilion18Map{
+    background: url("images/pavilion18.jpg") no-repeat scroll 0 0 transparent;
+    height: 1024px;
+    position: relative;
+    width: 619px;
+    margin: 15px;
+}
+
+#pavilion19Map{
+    background: url("images/pavilion19.jpg") no-repeat scroll 0 0 transparent;
+    height: 994px;
+    position: relative;
+    width: 562px;
+    margin: 15px;
+}
+
+#pavilion20Map{
+    background: url("images/pavilion20.jpg") no-repeat scroll 0 0 transparent;
+    height: 1009px;
+    position: relative;
+    width: 498px;
+    margin: 15px;
+}
+
+#pavilion21Map{
+    background: url("images/pavilion21.jpg") no-repeat scroll 0 0 transparent;
+    height: 1016px;
+    position: relative;
+    width: 344px;
+    margin: 15px;
+}
+
+#pavilion22Map{
+    background: url("images/pavilion22.jpg") no-repeat scroll 0 0 transparent;
+    height: 989px;
+    position: relative;
+    width: 251px;
+    margin: 15px;
+}
+
+
+#pavilion25Map{
+    background: url("images/pavilion25.jpg") no-repeat scroll 0 0 transparent;
+    height: 2004px;
+    position: relative;
+    width: 384px;
+    margin: 15px;
+}
+
+#pavilion26Map{
+    background: url("images/pavilion26.jpg") no-repeat scroll 0 0 transparent;
+    height: 2967px;
+    position: relative;
+    width: 666px;
+    margin: 15px;
+}
+
+#pavilion29Map{
+    background: url("images/pavilion29.jpg") no-repeat scroll 0 0 transparent;
+    height: 1021px;
+    position: relative;
+    width: 730px;
+    margin: 15px;
+}
+
+#pavilion30Map{
+    background: url("images/pavilion30.jpg") no-repeat scroll 0 0 transparent;
+    height: 1024px;
+    position: relative;
+    width: 695px;
+    margin: 15px;
+}
+
+#pavilion33Map{
+    background: url("images/pavilion33.jpg") no-repeat scroll 0 0 transparent;
+    height: 903px;
+    position: relative;
+    width: 768px;
+    margin: 15px;
+}
+
+#pavilion34Map{
+    background: url("images/pavilion34.jpg") no-repeat scroll 0 0 transparent;
+    height: 499px;
+    position: relative;
+    width: 752px;
+    margin: 15px;
+}
+
+#pavilion35Map{
+    background: url("images/pavilion35.jpg") no-repeat scroll 0 0 transparent;
+    height: 1005px;
+    position: relative;
+    width: 372px;
+    margin: 15px;
+}
+
+#pavilion36Map{
+    background: url("images/pavilion36.jpg") no-repeat scroll 0 0 transparent;
+    height: 1012px;
+    position: relative;
+    width: 439px;
+    margin: 15px;
+}
+
+#pavilion44Map{
+    background: url("images/pavilion44.jpg") no-repeat scroll 0 0 transparent;
+    height: 965px;
+    position: relative;
+    width: 362px;
+    margin: 15px;
+}
+
+#pavilion45Map{
+    background: url("images/pavilion45.jpg") no-repeat scroll 0 0 transparent;
+    height: 957px;
+    position: relative;
+    width: 300px;
+    margin: 15px;
+}
+
+
+/******************************************************************************/
+
+
+/******************************* FICHA EMPRESA ****************************************************/
+
+#subitem_company{
+    float: left;
+    height: 32px;
+    margin-top: -8px;
+    max-width: 310px;
+    padding: 2px;
+    overflow: hidden;
+}
+
+#subitem_company_information{
+    float: left;
+    height: 35px;
+    margin-top: -8px; 
+}
+
+.textSubmenu_company{
+    color: #FFFFFF;
+    float: left;
+    margin-left: 0px;
+    margin-top: 5px;
+    text-align: center;
+    width: 100%;
+    height: 20px;
+    overflow: hidden;
+}
+
+.submenu-font-company{
+    font-family: Verdana, Helvetica, sans-serif;
+    font-size: 12pt;
+    margin-right: 30px;
+}
+
+#first_part_company{    
+    float: left;
+    margin-top: 5px;
+    width: 100%;
+}
+
+#second_part_company{    
+    float: left;
+    margin-top: 5px;
+    width: 100%;
+    height: 200px;
+}
+
+
+#title_company{
+    background: none repeat scroll 0 0 #262224;
+    float: left;
+    height: 25px;
+    margin-top: 10px;
+    top: 0;
+    width: 100%;
+    padding-top: 5px;
+ 
+}
+
+#first_content{
+    float: left;
+    width: 100%;
+}
+
+#first_left{
+    float: left;
+    width: 100%;
+}
+
+#first_right{
+    float: left;
+    width: 100%;
+}
+
+#second_content{
+    float: left;
+    width: 100%;
+}
+
+#second_left{
+    float: left;
+    width: 100%;
+}
+
+#second_right{
+    float: left;
+    width: 100%;
+}
+
+.section_title{
+    font-weight: bold;
+    text-align: left;
+    font-size: 12pt;
+}
+
+.section_title2{
+    font-weight: bold;
+    text-align: left;
+    font-size: 10pt;
+}
+
+.section_title3{
+    font-weight: bold;
+    text-align: left;
+    font-size: 12pt;
+}
+
+#novelties_title, 
+#manager_title,
+#products_title{
+    float: left;
+    margin-left: 5px;
+    margin-top: 10px;
+    width: 50%;
+}
+
+#description_content{
+    float: left;
+    margin-top: 5px;
+    margin-left: 5px;
+    font-size: 10pt;
+    
+}
+
+#manager_name{
+    float: left;
+    margin-left: 5px;
+    margin-top: 3px;
+    width: 95%;
+    font-size: 10pt;
+}
+
+#icon-map{
+     background: url("images/iphone/menu-pin-normal.png") repeat scroll 0 0 transparent;
+     background-size: 16px 15px;
+     float:left;
+     width: 16px;
+     height: 15px;
+     margin-top: 5px;
+     
+}
+
+#hall_title{
+    float: left;
+    text-align: left;
+    border: 1px #e0e0e0 solid;
+    padding: 2px;
+    color: #000;
+} 
+
+#stand_title{
+    float: left;
+    text-align: left;
+    margin-left: 2px;
+    padding: 2px;
+    margin-top: 1px;
+}
+
+#location_content{
+    float: left;
+    text-align: left;
+    margin-left: 2px;
+    font-weight: bold;
+    font-size: 9pt;
+    width: 95%;
+
+}
+
+#logo_company{
+    float: right;
+    margin-right: 5px;
+    margin-top: 10px;
+
+}
+
+#logo_company img{
+    float: right;
+    max-width: 120px;
+    max-height: 60px;
+
+}
+
+#star_container{
+    margin-top: 28px;
+	float:right;
+    margin-left:50px;
+    width:100%;
+
+}
+
+#picture_container{
+    float: right;
+}
+
+#title_location{
+    float:left;
+    font-size: 10pt;
+    font-weight: bold;
+    width: 95%;
+    margin-left: 10px;
+    margin-top: 8px;
+    margin-bottom: 5px;
+}
+
+#name_company{
+    float: left;
+    font-size: 11pt;
+    width: 95%;
+    margin-left: 10px;
+    font-size: 11pt;
+}
+
+#text_address{
+    float: left;
+    font-size: 10pt;
+    margin-left: 10px;
+    width: 95%;
+}
+
+#text_cpostal{
+    float: left;
+    font-size: 10pt;
+    margin-left: 10px;
+    margin-right: 7px;
+}
+
+#text_city{
+    float: left;
+    font-size: 10pt;
+}
+
+#separator{
+    float: right;
+    width: 100%;
+}
+#first_row{
+    margin-top: 10px;
+}
+
+#last_row{
+    margin-bottom: 30px;
+}
+
+.contact_row{
+    float: left;
+    width: 95%;
+    margin-left: 10px;
+    height: 40px;
+}
+
+.image_contact_phone{
+    height: 19px;
+    width: 19px;
+    background: url("images/iphone/phone-icon.png") repeat scroll 0 0 transparent;
+    background-size: 19px 19px;
+    float: left;
+    margin-top: 5px;
+}
+
+.image_contact_fax{
+    height: 19px;
+    width: 19px;
+    background: url("images/iphone/fax-icon.png") repeat scroll 0 0 transparent;
+    background-size: 19px 19px;
+    float: left;
+    margin-top: 5px;
+}
+
+.image_contact_mail{
+    height: 19px;
+    width: 19px;
+    background: url("images/iphone/mail-icon.png") repeat scroll 0 0 transparent;
+    background-size: 19px 19px;
+    float: left;
+    margin-top: 5px;
+}
+
+.image_contact_web{
+    height: 19px;
+    width: 19px;
+    background: url("images/iphone/web-icon.png") repeat scroll 0 0 transparent;
+    background-size: 19px 19px;
+    float: left;
+    margin-top: 5px;
+}
+
+.image_contact_google{
+    height: 19px;
+    width: 19px;
+    background: url("images/iphone/direction-map-icon.png") repeat scroll 0 0 transparent;
+    background-size: 19px 19px;
+    float: left;
+    margin-top: 5px;
+}
+
+
+
+.title_contact{
+    font-weight: bold;
+    font-size: 12pt;
+    margin-left: 5px;
+    float: left;
+    margin-top: 5px;
+}
+
+.link_contact{
+    text-decoration: underline;
+    margin-top: 5px;
+    margin-left: 10px;
+    float: left;
+    font-size: 11pt;
+    color: #4a8bf4;
+    max-Kwidth: 220px;
+    height: 20px;
+    overflow: hidden;
+}
+
+
+#buttonBack{    
+    background: url("images/back-bttn.png") repeat scroll 0 0 transparent;
+    background-size: 60px 35px;
+    color: #000000;
+    float: left;
+    font-size: 9pt;
+    font-weight: bold;
+    height: 25px;
+    margin-left: 10px;
+    margin-top: 10px;
+    padding-left: 15px;
+    padding-top: 10px;
+    width: 45px;
+}
+
+#company_information{
+    display: block;
+    left: 0;
+    overflow: hidden;
+    position: absolute;
+    top: 85px;
+    width: 100%;
+    padding-top: 10px;
+}
+
+#company_favorited{
+    margin-top: 10px;
+}
+
+#enlarge{
+    background: url("images/enlarge-icon.png") repeat scroll 0 0 transparent;
+    background-size: 28px 28px;
+    height: 28px;
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    width: 28px;
+    z-index: 200;
+}
+
+#container_carousel{
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+}
+
+
+/****************************/
+
+/************************************************************************
+-) Slider: only the following lines are necceassary for slider styling,
+   rest of the css file styles the demo page
+*************************************************************************/
+.aviaslider{ 
+    height:164px; 	/*this changes the height of the image slider*/
+    width:320px;
+    overflow: hidden;
+    position: relative;
+    background: #fff url(images/preload.gif) center center no-repeat;
+    float: right;
+    padding: 0px;
+}
+
+.aviaslider li, .aviaslider .featured{
+    display: block;
+    width:100%;
+    height:100%;
+    position: absolute;
+    top:0;
+    left:0;
+    z-index: 1;
+}
+
+
+.size_iphone{
+    height:164px; 	/*this changes the height of the image slider*/
+    width:320px;
+}
+
+.js_active .aviaslider li, .js_active .aviaslider .featured{
+    display:none;
+}
+
+.aviaslider img, .aviaslider a img, .aviaslider a{
+    border:none;
+    text-decoration: none;
+}
+
+.slidecontrolls{
+    position: absolute;
+    right: 15px;
+    top: 395px;
+    z-index: 200;
+}
+
+.slidecontrolls a{
+    height:20px;
+    width:12px;
+    display:block;
+    cursor: pointer;
+    background: transparent url(images/controlls.png) center bottom no-repeat;
+    float:left;
+    outline: none;
+}
+
+.slidecontrolls a:hover, .slidecontrolls .active_item{
+    background: transparent url(images/controlls.png) center top no-repeat;
+}
+
+
+/***************************** ABOUT ********************************************/
+
+
+#about_information{
+    display: block;
+    left: 0;
+    overflow: hidden;
+    position: absolute;
+    top: 50px;
+    width: 100%; 
+    padding-top: 10px;   
+}
+
+#leftAbout{
+    top:50px;
+    left: 0px;
+    width: 1px;
+}
+
+#title_about_1{
+    background: none repeat scroll 0 0 #000000;
+    color: #FFFFFF;
+    font-size: 17pt;
+    padding: 5px;
+    width: 300px; 
+    float:left;
+}
+
+#title_about_2{
+    background: none repeat scroll 0 0 #E40079;
+    color: #FFFFFF;
+    float: left;
+    font-size: 18pt;
+    font-weight: bold;
+    margin-left: -310px;
+    margin-top: 38px;
+    padding: 5px;
+    width: 160px;
+}
+
+#left_text_about{
+    float: left;
+    margin-top: 5px;
+    margin-left: 5px;
+    width: 98%;
+    font-size: 10pt;
+}
+
+#left_text_about_2{
+    float: left;
+    margin-top: 5px;
+    margin-left: 5px;
+    width: 95%;
+    font-size: 10pt;
+}
+
+
+
+#center_img_about{
+    float: left;
+    width: 100%;
+    text-align: center;
+}
+
+#img1,
+#img2{
+    float: left;
+    margin-left: 2px;
+}
+
+#img1 img{
+    width: 320px;
+    height:223px;
+    margin-left: -5px;
+    margin-bottom: 5px;
+}
+
+#center_img_about img{
+    width: 320px;
+    height:133px;
+    margin-bottom: 5px;
+}
+
+#img2 img{
+    width: 320px;
+    height:213px;
+    margin-left: -5px;
+    margin-bottom: 5px;
+}
+
+
+.floatLeft{
+    float: left; 
+}
+
+.floatRight{
+    float: right; 
+}
+
+
+.text_style_1{
+    font-size: 12pt;
+    font-weight: bold;
+}
+
+.text_style_2{
+    font-size: 11pt;
+    font-weight: bold;
+}
+
+.text_style_3{
+    font-size: 11pt;
+    font-weight: bold;
+}
+
+#about_contact{
+    float: left;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+#about_contact_left{
+    float: left;
+    margin-top: 5px;
+    margin-left: 5px;
+    width: 100%;
+}
+
+#about_contact_title{
+   margin-bottom: 5px; 
+}
+
+#about_contact_title_1{
+    font-size: 12pt;
+}
+
+#about_contact_title_2{
+    font-size: 11pt;
+}
+
+#about_contact_title_1,
+#about_contact_title_2,
+{
+    float: left;
+    width: 100%;
+    margin-bottom: 2px;   
+}
+
+
+#about_contact_title_3,
+#about_contact_title_4{
+    float: left;
+    font-weight: bold;
+    margin-right: 10px;
+    font-size: 10pt;
+
+}
+
+#about_contact_title_3 a,
+#about_contact_title_4 a{
+    color: #000;
+}
+
+#about_contact_title_5,
+#about_contact_title_6{
+    float: left;
+    margin-right: 10px;
+    font-size: 10pt;
+}
+
+#about_contact_title_5 a,
+#about_contact_title_6 a{
+    color: #000;
+}
+
+
+#logos{
+    float:left;
+    width: 320px;
+    margin-left: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#logo_1{
+    float: left;
+    margin-left: 5px;
+    margin-top: 15px;
+}
+#logo_1 img{
+    width: 52px;
+    height: 32px;
+}
+
+#logo_2{
+    float: left;
+    margin-left: 10px;
+    margin-top: 25px;
+}
+
+#logo_2 img{
+    width: 59px;
+    height: 16px;
+}
+
+#logo_3{
+    float: left;
+    margin-left: 10px;
+    margin-top: 18px;
+}
+
+#logo_3 img{
+    width: 27px;
+    height: 27px;
+}
+
+#logo_4{
+    float: left;
+    margin-left: 10px;
+    margin-top: 25px;
+}
+
+#logo_4 img{
+    width: 56px;
+    height: 22px;
+}
+
+#logo_5{
+    float: left;
+    margin-left: 10px;
+    margin-top: 25px;
+}
+
+#logo_5 img{
+    width: 52px;
+    height: 16px;
+}
+
+.iphone_separator{
+    float: left !important;
+    width: 0px !important;
+}
+
+
+.share{
+    background: black;
+    font-size:14px;
+    color:white;
+    width:100px;
+    height:20px;
+}
+

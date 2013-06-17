@@ -1,0 +1,130 @@
+<html>
+<head>
+<title>ASCER</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0"/>
+<meta name="apple-mobile-web-app-capable" content="yes" />
+    
+<link rel="stylesheet" href="css/styles.css"/>
+    
+<script type="text/javascript">
+        var $ = document; // shortcut
+        var head  = $.getElementsByTagName('head')[0];
+        var link  = $.createElement('link');
+        link.rel  = 'stylesheet';
+        link.type = 'text/css';
+        
+        if(navigator.userAgent.match(/iPhone/i)){
+            link.href = 'css/ascer_iphone.css';
+        }else if(navigator.userAgent.match(/iPad/i)) {
+            link.href = 'css/ascer.css';
+        }else{
+            link.href = 'css/ascer_iphone.css';        
+        }
+        
+        link.media = 'screen, projection';
+        head.appendChild(link);
+        
+        var link2  = $.createElement('link');
+        link2.rel  = 'stylesheet';
+        link2.type = 'text/css';        
+
+        link2.href = 'css/photoswipe_iphone.css';        
+        
+        head.appendChild(link2);
+		
+        
+</script>
+    
+<script type="text/javascript" src="js/slider/jquery.js"></script>
+<script type="text/javascript" src="libs/underscore-min.js"></script>
+<script type="text/javascript" src="iphone-cordova-2.7.0.js"></script>
+<script type="text/javascript" src="js/Base64.js"></script>
+
+
+    
+<script type="text/javascript">
+    
+        var supportsOrientationChange = "onorientationchange" in window,
+        orientationEvent = supportsOrientationChange ? "orientationchange" : "resize";
+        
+        window.addEventListener(orientationEvent, function() {
+                                var alphabetic= $('#leftCompany');	
+                                var height = $(alphabetic).height();
+                                if(height > 0){
+                                    $('#company_information').css('height',height);
+                                }
+                                }, false); 
+    
+       
+        var params = String(window.location.search);
+        
+        var aux1 = new Array();        
+        var aux2 = new Array();
+        
+        //si hay parametros
+        
+        if (params.length > 0){        
+            //eliminamos el primer caracter '?'
+            params = params.substr(1);
+            
+            //insertamos en un array las parejas nombre=valor            
+            aux1 = params.split("&");              
+            
+            
+            //separo el nombre del valor                
+            aux2 = aux1[0].split("=");
+            
+
+            aux2= aux2[1].split('-');
+            
+            var origen = aux2[1];
+        }  
+        
+</script>
+    
+<script type="text/javascript" src="js/ascer.js"></script> 
+<script type="text/javascript" src="js/EmailComposer.js"></script>
+<script>
+    if (params.length > 0){        
+        
+        getCompanyById(aux2[0]);
+    }
+</script>
+
+
+</head>
+<body onLoad="touchScroll('company_information')">
+    <div id="content">       
+        
+        <div id="mainMenu"></div>
+        
+        <div id="leftCompany" class="non-scroll"></div>
+        <div id="company_information">
+           <div id="location_content"></div>
+        <div id="first_part_company">           
+            <div id="first_content">  
+                
+                <div id="first_left"></div>
+                <div id="first_right"></div>
+            </div>
+        </div>
+        
+         <div id="second_part_company"></div> 
+        </div>
+   </div>
+    
+        
+<script type="text/javascript">
+    
+    var alphabetic= $('#leftCompany');	
+    var height = $(alphabetic).height();
+        
+    if(height > 0){
+            $('#company_information').css('height',height);
+    }
+     
+</script>
+
+</body>
+</html>

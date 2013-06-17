@@ -1,0 +1,182 @@
+<html>
+<head>
+<title>ASCER</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0"/>
+<link rel="stylesheet" href="css/styles.css"/>
+<script type="text/javascript">
+        var $ = document; // shortcut
+        var head  = $.getElementsByTagName('head')[0];
+        var link  = $.createElement('link');
+        link.rel  = 'stylesheet';
+        link.type = 'text/css';
+        
+        if(navigator.userAgent.match(/iPhone/i)){
+            link.href = 'css/ascer_iphone.css';
+        }else if(navigator.userAgent.match(/iPad/i)) {
+            link.href = 'css/ascer.css';
+        }else{
+            link.href = 'css/ascer_iphone.css';        
+        }
+        
+        link.media = 'screen, projection';
+        head.appendChild(link);
+
+</script>
+
+<script type="text/javascript" src="js/slider/jquery.js"></script>
+<script type="text/javascript" src="libs/underscore-min.js"></script>
+    <script type="text/javascript" src="iphone-cordova-2.7.0.js"></script>
+
+<script type="text/javascript" src="js/ascer.js"></script>
+
+<script type="text/javascript">
+        var supportsOrientationChange = "onorientationchange" in window,
+        orientationEvent = supportsOrientationChange ? "orientationchange" : "resize";
+        
+        window.addEventListener(orientationEvent, function() {
+                                var alphabetic= $('#leftMap');	
+                                var height = $(alphabetic).height();
+                                $('#mapContainer').css('height',height);
+                                }, false);  
+    
+        var item= 'generalMapItem';
+        var params = String(window.location.search);
+    
+        var aux1 = new Array();        
+        var aux2 = new Array();
+    
+        //si hay parametros
+    
+        if (params.length > 0){        
+            //eliminamos el primer caracter '?'
+            params = params.substr(1);
+        
+            //insertamos en un array las parejas nombre=valor            
+            aux1 = params.split("&");
+        
+            //separo el nombre del valor                
+            aux2 = aux1[0].split("=");
+            
+            item=aux2[1]+'';  
+        }  
+        
+        
+       function load(){
+            initDB(); 
+            gotoMap(item);
+            touchScroll('mapContainer')
+        }
+    
+    $(document).ready(function() {
+                      load();
+                      $('img').retina();
+                      });
+
+    
+
+        
+</script>
+</head>
+<body>
+    <div id="content">       
+        
+        <div id="mainMenu">
+            <a id="buttonList" href="index.html" class="buttonMenu">
+                <div id="imgList" class="imageButton"></div>
+                <div class="textButton">List</div>
+            </a>
+            <a id="buttonMap" class="buttonMenu-hover">
+                <div id="imgMap-hover" class="imageButton"></div>
+                <div class="textButton textColor">Map</div>
+            </a>
+            <a id="buttonFavorites" href="favourite_list.html" class="buttonMenu">
+                <div id="imgFavorites" class="imageButton"></div>
+                <div class="textButton textColor">Favorites</div>
+            </a>
+            <a id="buttonAbout" href="about.html"  class="buttonMenu">
+                <div id="imgAbout" class="imageButton"></div>
+                <div class="textButton textColor">About</div>
+            </a>    
+            
+            <div id="ascerLogo"></div>
+        </div>
+        
+        <div id="secondaryMenuMap" class="secondary-iphone">
+		
+		
+		
+            <div id="generalMapItem">
+                <div class="textSubmenu submenu-font textSubmenu_iphone_general"><a href="#" onClick="gotoMap('generalMapItem')">General</a></div>
+            </div>
+            <div class="hallItem bold hall-iphone">
+                <div class="textSubmenu submenu-font">Hall:</div>
+            </div>
+            <div id="14" class="hallItem">
+                <div class="textSubmenu submenu-font textSubmenu_iphone"><a href="#" onClick="gotoMap(14)">14</a></div>
+            </div>
+            <div id="15" class="hallItem">
+                <div class="textSubmenu submenu-font textSubmenu_iphone"><a href="#" onClick="gotoMap(15)">15</a></div>
+            </div>
+            <div id="18" class="hallItem">
+                <div class="textSubmenu submenu-font textSubmenu_iphone"><a href="#" onClick="gotoMap('18')">18</a></div>
+            </div>
+            <div id="19" class="hallItem">
+                <div class="textSubmenu submenu-font textSubmenu_iphone"><a href="#" onClick="gotoMap('19')">19</a></div>
+            </div>
+            <div id="20" class="hallItem">
+                <div class="textSubmenu submenu-font textSubmenu_iphone"><a href="#" onClick="gotoMap('20')">20</a></div>
+            </div>
+            <div id="21" class="hallItem">
+                <div class="textSubmenu submenu-font textSubmenu_iphone"><a href="#" onClick="gotoMap('21')">21</a></div>
+            </div>
+            <div id="22" class="hallItem">
+                <div class="textSubmenu submenu-font textSubmenu_iphone"><a href="#" onClick="gotoMap('22')">22</a></div>
+            </div>
+            <div id="25" class="hallItem">
+                <div class="textSubmenu submenu-font textSubmenu_iphone"><a href="#" onClick="gotoMap('25')">25</a></div>
+            </div>
+            <div id="26" class="hallItem">
+                <div class="textSubmenu submenu-font textSubmenu_iphone"><a href="#" onClick="gotoMap('26')">26</a></div>
+            </div>
+             <div id="29" class="hallItem hallItem_bajo">
+                <div class="textSubmenu submenu-font textSubmenu_iphone_bajo"><a href="#" onClick="gotoMap('29')">29</a></div>
+            </div>
+             <div id="30" class="hallItem hallItem_bajo">
+                <div class="textSubmenu submenu-font textSubmenu_iphone_bajo"><a href="#" onClick="gotoMap('30')">30</a></div>
+            </div>
+             <div id="33" class="hallItem hallItem_bajo">
+                <div class="textSubmenu submenu-font textSubmenu_iphone_bajo"><a href="#" onClick="gotoMap('33')">33</a></div>
+            </div>
+            <div id="34" class="hallItem hallItem_bajo">
+                <div class="textSubmenu submenu-font textSubmenu_iphone_bajo"><a href="#" onClick="gotoMap('34')">34</a></div>
+            </div>
+             <div id="35" class="hallItem hallItem_bajo">
+                <div class="textSubmenu submenu-font textSubmenu_iphone_bajo"><a href="#" onClick="gotoMap('35')">35</a></div>
+            </div>
+            <div id="36" class="hallItem hallItem_bajo">
+                <div class="textSubmenu submenu-font textSubmenu_iphone_bajo"><a href="#" onClick="gotoMap('36')">36</a></div>
+            </div>
+            <div id="44" class="hallItem hallItem_bajo">
+                <div class="textSubmenu submenu-font textSubmenu_iphone_bajo"><a href="#" onClick="gotoMap('44')">44</a></div>
+            </div>
+            <div id="45" class="hallItem hallItem_bajo">
+                <div class="textSubmenu submenu-font textSubmenu_iphone_bajo"><a href="#" onClick="gotoMap('45')">45</a></div>
+            </div>
+        </div>
+		
+        <div style="position:absolute;width:100%;top:125px;">
+		<a href="#" id="prev" style="display:none;"><img src="img_prev.png" /></a>
+		<a href="#" id="next" style="float:right;margin-right:5px;display:none;"><img src="img_next.png" /></a>
+		</div>
+		
+        <div id="leftMap" class="non-scroll"></div>
+        <div id="mapContainer" class="striped"></div>
+
+        
+        
+        
+   </div>
+
+</body>
+</html>

@@ -1,0 +1,1428 @@
+
+/* STYLE ASCER */
+
+a { text-decoration: none; }
+
+#mainMenu{
+    background-color: white;
+    width: 100%;
+    float: left;
+    margin-bottom: 10px;
+}
+
+#secondaryMenu{
+    background: none repeat scroll 0 0 #262224;
+    height: 34px;
+    padding-top: 5px;
+    width: 100%;
+    position: absolute;
+    top: 105px;
+    z-index: 20;
+}
+#secondaryMenuMap{
+    background: none repeat scroll 0 0 #262224;
+    height: 34px;
+    padding-top: 5px;
+    width: 100%;
+    position: absolute;
+    top: 105px;
+    z-index: 20;
+}
+#ascerLogo{
+    float: right;
+    width: 177px;
+    height: 63px;
+    background: url("images/tileofspain-logo.png") repeat scroll 0 0 transparent;
+    margin-right: 15px;
+    margin-top: 10px;
+}
+
+.buttonMenu-hover{
+    float: left;
+    background: url("images/menu-hover.jpg") repeat scroll 0 0 transparent;
+    width:115px;
+    height: 94px;    
+}
+.buttonMenu{
+    float: left;
+    background: white;
+    width:115px;
+    height: 94px;    
+}
+
+.imageButton{
+    float: left;
+    margin-left: 36%;
+    margin-top: 20%;
+}
+
+
+
+.textColor{
+    color: #878787 !important;
+}
+.textButton{
+    float: left;
+    width: 100%;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11pt;
+    font-weight: bold;
+    margin-top: 5px;
+    color: #000;
+}
+
+
+#imgList{
+    background: url("images/list-normal.png") repeat scroll 0 0 transparent;
+    width: 34px;
+    height: 32px;
+}
+#imgList-hover{
+    background: url("images/list-hover.png") repeat scroll 0 0 transparent;
+    width: 34px;
+    height: 32px;
+}
+
+#imgMap{
+    background: url("images/pin-normal.png") repeat scroll 0 0 transparent;
+    width: 34px;
+    height: 32px;
+}
+#imgMap-hover{
+    background: url("images/pin-hover.png") repeat scroll 0 0 transparent;
+    width: 34px;
+    height: 32px;
+}
+
+#imgFavorites{
+    background: url("images/star-normal.png") repeat scroll 0 0 transparent;
+    width: 34px;
+    height: 32px;
+}
+#imgFavorites-hover{
+    background: url("images/star-hover.png") repeat scroll 0 0 transparent;
+    width: 34px;
+    height: 32px;
+}
+
+#imgAbout{
+    background: url("images/info-normal.png") repeat scroll 0 0 transparent;
+    width: 34px;
+    height: 32px;
+}
+#imgAbout-hover{
+    background: url("images/info-hover.png") repeat scroll 0 0 transparent;
+    width: 34px;
+    height: 32px;
+}
+
+
+
+/***************************** SUBMENU ***************************/
+.submenu-font{
+    font-family: Verdana, Helvetica, sans-serif;
+    font-size: 13pt;
+}
+
+#subtitle{
+    color: white;
+    float: left;
+    margin-left: 20px;
+    margin-top: 3px;
+}
+
+#subitem1{
+    float: left;
+    height: 50px;
+    margin-left: 20px;
+    margin-top: -11px;
+    width: 70px;
+}
+
+#subitem2{
+    float: left;
+    height: 50px;
+    margin-left: 10px;
+    margin-top: -11px;
+    width: 125px;
+}
+
+#subitem3{
+    float: left;
+    height: 50px;
+    margin-left: 10px;
+    margin-top: -11px;
+    width: 130px;
+}
+
+#subitem4{
+    float: left;
+    height: 50px;
+    margin-left: 10px;
+    margin-top: -11px;
+    width: 75px;
+}
+
+.subitem-hover{
+      background: url("images/mennu-hover.png") repeat scroll 0 0 transparent;
+}
+
+.textSubmenu{
+    color: #FFFFFF;
+    float: left;
+    margin-left: 5px;
+    margin-top: 14px;
+    text-align: center;
+    width: 100%;
+}
+
+.textSubmenu a,
+.textSubmenu a:hover,
+.textSubmenu a:visited, 
+.textSubmenu a:active{
+    color:#FFF;
+}
+
+#searchInput{
+    float: right;
+    font-size: 10pt;
+    height: 34px;
+    padding-bottom: 2px;
+    padding-top: 2px;
+    width: 140px;
+    border: none;
+    font-weight: bold;
+    letter-spacing: 1px;
+    color: #878787;
+}
+
+#searchIcon{
+    background: url("images/search-icon.png") repeat scroll 0 0 transparent;
+    float: left;
+    height: 19px;
+    margin-left: 5px;
+    margin-top: 7px;
+    width: 19px;
+}
+
+#searchContainer{
+    background: none repeat scroll 0 0 white;
+    float: right;
+    height: 35px;
+    margin-right: 1px;
+    margin-top: -3px;
+    width: 170px;
+}
+
+.hallItem{
+    float: left;
+    height: 50px;
+    margin-left: 0px;
+    margin-top: -11px;
+    width: 38px;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+/*************************** SLIDER **********************************************/
+
+.slider {    
+    position: absolute;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+}
+
+.slider ul { 
+
+list-style: none;
+
+}
+.slider-content { 
+    position: absolute;
+    width: 100%; 
+    display: block; 
+    overflow: auto; 
+    height: 100%; 
+    left: 50px;
+}
+
+.slider-content ul { 
+    float: left; 
+    width: 100%; 
+    display: block; 
+    position: relative; 
+    height: 100%;
+}
+.slider-content ul li { float: left; width: 100%; }
+.slider-content ul ul li a { padding: 5px 10px; display: block; border-bottom: 1px solid #f3f3f3; text-transform: capitalize; }
+.slider-content ul ul li a:hover { background: #f3faff; border-color: #d5ebf9; }
+
+.slider-content .title { 
+    text-indent: 10px; 
+    background: #f2f2f2; 
+    color: #000; 
+    width: 100%; 
+    float: left; 
+    font-weight: bold; 
+    text-transform: uppercase;
+    height: 35px;
+    font-size: 15pt;
+    padding-top: 5px;
+    padding-left: 5px;
+    margin-left: -5px;
+}
+
+
+
+/*************************** COMPANY LIST ****************************************/
+
+
+#companyList{
+    position: absolute;
+    top:143px;
+    left: 0px;
+    width: 99%;
+    margin-left: 1px;
+}
+
+#companyListFavourites{
+    position: absolute;
+    top:143px;
+    left: 0px;
+    width: 99%;
+    margin-left: 1px;
+}
+
+
+
+#leftAlphabetic{
+    top:145px;
+    left: 0px;
+    background: #f2f2f2;
+    width: 50px;
+    border-right: 1px solid #e0e0e0;
+}
+
+.letter{
+    position: relative;
+    height: 21px;
+    width:50px;
+    text-align: center;
+    color: #878787;
+    font-size: 11pt;
+    margin-top: 7px;
+    margin-bottom: 5px;
+
+}
+
+.row{
+    height: 85px;
+    border-bottom: solid #e0e0e0 1px;
+}
+.row:active{
+    background: #e0e0e0;
+}
+
+.arrow{
+    background: url("images/arrow.png") no-repeat scroll 0 0 transparent;
+    float: right;
+    height: 34px;
+    margin-bottom: 10px;
+    margin-right: 50px;
+    margin-top: 25px;
+    width: 22px;
+}
+
+.situation{
+    float:right;
+    width: 150px;
+}
+
+.hall{
+    position: relative;
+    width: 100%;
+    height: 20px;
+    margin-top: 23px;
+    font-size: 12pt;
+}
+
+.stand{
+    position: relative;
+    width: 100%;
+    height: 20px;
+    font-size: 12pt;
+}
+
+.identity{
+    float:left;
+    margin-left: 15px;
+    width:400px;
+    height: 85px;
+    text-decoration: none;
+    color: #262224; 
+}
+
+.rowtitle{
+    position: relative;
+    width: 100%;
+    height: 20px;
+    margin-top: 23px;
+    font-weight: bold;
+    font-size: 12pt;
+}
+.rowtitle a{
+    color: #262224;
+}
+
+.rowsubtitle{
+    position: relative;
+    width: 100%;
+    height: 20px;
+    font-size: 12pt;
+}
+.rowsubtitle a{
+    color: #262224;
+}
+.favorited-favourites{
+	background: url("images/favorite-star.png") no-repeat scroll 0 0 transparent;
+     float: right;
+    height: 38px;
+    margin-right: 40px;
+    margin-top: 25px;
+    width: 38px; 
+}
+
+
+.favorited {
+    background: url("images/favorite-star.png") no-repeat scroll 0 0 transparent;
+    float: right;
+    height: 38px;
+    margin-right: 40px;
+    margin-top: 25px;
+    width: 38px;    
+}
+
+.no-favorited {
+    background: url("images/favorite-star-grey.png") no-repeat scroll 0 0 transparent;
+    float: right;
+    height: 38px;
+    margin-right: 40px;
+    margin-top: 25px;
+    width: 38px;    
+}
+.favorited-company {
+    background: url("images/favorite-star.png") no-repeat scroll 0 0 transparent;
+    height: 38px;
+    margin-left: 160px;
+    margin-top: 25px;
+    width: 38px;    
+    float: right;
+}
+
+.no-favorited-company {
+    background: url("images/favorite-star-grey.png") no-repeat scroll 0 0 transparent;
+    height: 38px;
+    margin-left: 160px;
+    margin-top: 25px;
+    width: 38px;    
+    float: right;
+}
+
+
+/**************************** MAPA **************************************/
+
+#mapContainer{
+    position: absolute;
+    top:143px;
+    left: 0px;
+    width: 100%;
+    overflow: auto;
+    display: block;
+}
+
+#generalMapItem{
+    float: left;
+    height: 50px;
+    margin-left: 0px;
+    margin-top: -11px;
+    width: 80px;
+}
+
+
+#leftMap{
+    top:145px;
+    left: 0px;
+    width: 1px;
+}
+
+#leftFavourites{
+    top:145px;
+    left: 0px;
+    width: 1px;
+}
+
+#leftAbout{
+    top:95px;
+    left: 0px;
+    width: 1px;
+}
+
+#leftCompany{
+    top:125px;
+    left: 0px;
+    width: 1px;
+}
+
+.hotpot{
+     background: url("images/hotspot-normal.png") no-repeat scroll 0 0 transparent;
+     background-size: 37px 36px;
+     width: 37px;
+     height: 36px;
+}
+
+.hotpot-selected{
+     background: url("images/hotspot-selected.png") no-repeat scroll 0 0 transparent;
+     background-size: 37px 36px;
+     width: 37px;
+     height: 36px;
+}
+
+#stand_name{
+    margin-top: 0px;
+    color: #000;
+    font-size: 9pt;
+    text-align: center;
+    width: 150px;
+    margin-left: -55px;
+    font-weight: bold;
+}
+
+/************************* MAPA GENERAL **************************************/
+#generalMap{
+    background: url("images/general.png") no-repeat scroll 0 0 transparent;
+    height: 694px;
+    left: 50%;
+    margin-left: -335px;
+    margin-top: 50px;
+    position: relative;
+    width: 678px;
+}
+
+#hall15Container {
+    position: relative;
+    top: 13px;
+    left: 15px;
+    width: 41px;
+    height: 40px;
+}
+
+#hall14Container {
+    left: 82px;
+    position: relative;
+    top: -40px;  
+    width: 41px;
+    height: 40px;
+}
+
+#hall18Container {
+    left: 215px;
+    position: relative;
+    top: -42px;
+    width: 41px;
+    height: 40px;
+}
+
+#hall19Container {
+    left: 108px;
+    position: relative;
+    top: 84px;
+    width: 41px;
+    height: 40px;
+}
+
+#hall20Container {
+    left: 45px;
+    position: relative;
+    top: 145px; 
+    width: 41px;
+    height: 40px;
+}
+
+#hall21Container {
+    left: 246px;
+    position: relative;
+    top: 12px;
+    width: 41px;
+    height: 40px;
+}
+
+#hall22Container {
+    left: 187px;
+    position: relative;
+    top: -27px;
+    width: 41px;
+    height: 40px;
+}
+
+#hall25Container {
+    height: 40px;
+    left: 320px;
+    position: relative;
+    top: 96px;
+    width: 41px;
+}
+
+#hall26Container {
+    height: 40px;
+    left: 320px;
+    position: relative;
+    top: 2px;
+    width: 41px;
+}
+
+#hall29Container {
+    height: 40px;
+    left: 377px;
+    position: relative;
+    top: -345px;
+    width: 41px;
+}
+
+#hall30Container {
+    height: 40px;
+    left: 465px;
+    position: relative;
+    top: -335px;
+    width: 41px;
+}
+
+#hall33Container {
+    height: 40px;
+    left: 265px;
+    position: relative;
+    top: -80px;
+    width: 41px;
+}
+
+#hall34Container {
+    height: 40px;
+    left: 230px;
+    position: relative;
+    top: 210px;
+    width: 41px;
+}
+
+#hall35Container {
+    height: 40px;
+    left: 385px;
+    position: relative;
+    top: -81px;
+    width: 41px;
+}
+
+#hall36Container {
+    height: 40px;
+    left: 620px;
+    position: relative;
+    top: -90px;
+    width: 41px;
+}
+
+#hall44Container {
+    height: 40px;
+    left: 303px;
+    position: relative;
+    top: -265px;
+    width: 41px;
+}
+
+#hall45Container {
+    height: 40px;
+    left: 445px;
+    position: relative;
+    top: -196px;
+    width: 41px;
+}
+
+/*********************************FIN MAPA GENERAL *********************************************/
+
+
+#pavilion14Map{
+    background: url("images/pavilion14.jpg") no-repeat scroll 0 0 transparent;
+    height: 696px;
+    left: 50%;
+    margin-left: -360px;
+    margin-top: 50px;
+    position: relative;
+    width: 746px;
+}
+
+#pavilion15Map{
+    background: url("images/pavilion15.jpg") no-repeat scroll 0 0 transparent;
+    height: 823px;
+    left: 50%;
+    margin-left: -367px;
+    margin-top: 50px;
+    position: relative;
+    width: 735px;
+}
+
+#pavilion18Map{
+    background: url("images/pavilion18.jpg") no-repeat scroll 0 0 transparent;
+    height: 1024px;
+    left: 50%;
+    margin-left: -310px;
+    margin-top: 50px;
+    position: relative;
+    width: 619px;
+}
+
+#pavilion19Map{
+    background: url("images/pavilion19.jpg") no-repeat scroll 0 0 transparent;
+    height: 994px;
+    left: 50%;
+    margin-left: -281px;
+    margin-top: 50px;
+    position: relative;
+    width: 562px;
+}
+
+#pavilion20Map{
+    background: url("images/pavilion20.jpg") no-repeat scroll 0 0 transparent;
+    height: 1009px;
+    left: 50%;
+    margin-left: -249px;
+    margin-top: 50px;
+    position: relative;
+    width: 498px;
+}
+
+#pavilion21Map{
+    background: url("images/pavilion21.jpg") no-repeat scroll 0 0 transparent;
+    height: 1016px;
+    left: 50%;
+    margin-left: -177px;
+    margin-top: 50px;
+    position: relative;
+    width: 344px;
+}
+
+#pavilion22Map{
+    background: url("images/pavilion22.jpg") no-repeat scroll 0 0 transparent;
+    height: 989px;
+    left: 50%;
+    margin-left: -125px;
+    margin-top: 50px;
+    position: relative;
+    width: 251px;
+}
+
+#pavilion25Map{
+    background: url("images/pavilion25.jpg") no-repeat scroll 0 0 transparent;
+    height: 2004px;
+    left: 50%;
+    margin-left: -192px;
+    margin-top: 50px;
+    position: relative;
+    width: 384px;
+}
+
+#pavilion26Map{
+    background: url("images/pavilion26.jpg") no-repeat scroll 0 0 transparent;
+    height: 2967px;
+    left: 50%;
+    margin-left: -333px;
+    margin-top: 50px;
+    position: relative;
+    width: 666px;
+}
+
+#pavilion29Map{
+    background: url("images/pavilion29.jpg") no-repeat scroll 0 0 transparent;
+    height: 1021px;
+    left: 50%;
+    margin-left: -365px;
+    margin-top: 50px;
+    position: relative;
+    width: 730px;
+}
+
+#pavilion30Map{
+    background: url("images/pavilion30.jpg") no-repeat scroll 0 0 transparent;
+    height: 1024px;
+    left: 50%;
+    margin-left: -347px;
+    margin-top: 50px;
+    position: relative;
+    width: 695px;
+}
+
+#pavilion33Map{
+    background: url("images/pavilion33.jpg") no-repeat scroll 0 0 transparent;
+    height: 903px;
+    left: 50%;
+    margin-left: -384px;
+    margin-top: 50px;
+    position: relative;
+    width: 768px;
+}
+
+#pavilion34Map{
+    background: url("images/pavilion34.jpg") no-repeat scroll 0 0 transparent;
+    height: 499px;
+    left: 50%;
+    margin-left: -376px;
+    margin-top: 50px;
+    position: relative;
+    width: 752px;
+}
+
+#pavilion35Map{
+    background: url("images/pavilion35.jpg") no-repeat scroll 0 0 transparent;
+    height: 1005px;
+    left: 50%;
+    margin-left: -186px;
+    margin-top: 50px;
+    position: relative;
+    width: 372px;
+}
+
+#pavilion36Map{
+    background: url("images/pavilion36.jpg") no-repeat scroll 0 0 transparent;
+    height: 1012px;
+    left: 50%;
+    margin-left: -220px;
+    margin-top: 50px;
+    position: relative;
+    width: 439px;
+}
+
+#pavilion44Map{
+    background: url("images/pavilion44.jpg") no-repeat scroll 0 0 transparent;
+    height: 965px;
+    left: 50%;
+    margin-left: -181px;
+    margin-top: 50px;
+    position: relative;
+    width: 362px;
+}
+
+#pavilion45Map{
+    background: url("images/pavilion45.jpg") no-repeat scroll 0 0 transparent;
+    height: 957px;
+    left: 50%;
+    margin-left: -150px;
+    margin-top: 50px;
+    position: relative;
+    width: 300px;
+}
+
+/******************************************************************************/
+
+
+/******************************* FICHA EMPRESA ****************************************************/
+
+#subitem_company{
+    float: left;
+    height: 50px;
+    margin-top: -11px;
+}
+
+#subitem_company_information{
+    float: left;
+    height: 45px;
+    margin-top: -6px; 
+}
+
+.textSubmenu_company{
+    color: #FFFFFF;
+    float: left;
+    margin-left: 5px;
+    margin-top: 10px;
+    text-align: center;
+    width: 100%;
+}
+
+.submenu-font-company{
+    font-family: Verdana, Helvetica, sans-serif;
+    font-size: 20px;
+    margin-right: 30px;
+}
+
+#first_part_company{    
+    float: left;
+    margin-top: 5px;
+    width: 100%;
+}
+
+#second_part_company{    
+    float: left;
+    margin-top: 5px;
+    width: 100%;
+    height: 200px;
+}
+
+
+#title_company{
+    background: none repeat scroll 0 0 #262224;
+    float: left;
+    height: 34px;
+    margin-top: 25px;
+    top: 0;
+    width: 100%;
+ 
+}
+
+#first_content{
+    float: left;
+    width: 100%;
+}
+
+#first_left{
+    float: left;
+    width: 40%;
+}
+
+#first_right{
+    float: left;
+    width: 60%;
+}
+
+#second_content{
+    float: left;
+    width: 100%;
+}
+
+#second_left{
+    float: left;
+    width: 50%;
+}
+
+#second_right{
+    float: left;
+    width: 50%;
+}
+
+.section_title{
+    font-weight: bold;
+    text-align: left;
+    font-size: 22px;
+}
+
+.section_title2{
+    font-weight: bold;
+    text-align: left;
+    font-size: 15px;
+}
+
+.section_title3{
+    font-weight: bold;
+    text-align: left;
+    font-size: 18px;
+}
+
+#novelties_title, 
+#manager_title,
+#products_title{
+    float: left;
+    margin-left: 10px;
+    margin-top: 20px;
+    width: 97%;
+}
+
+#description_content{
+    float: left;
+    margin-left: 10px;
+    margin-top: 10px;
+    width: 90%;
+    margin-bottom: 15px;
+}
+
+#manager_name{
+    float: left;
+    margin-left: 10px;
+    margin-top: 3px;
+    width: 90%;
+}
+
+#icon-map{
+     background: url("images/pin-normal.png") repeat scroll 0 0 transparent;
+     float:left;
+     width: 34px;
+     height: 32px;
+     
+}
+
+#hall_title{
+    float: left;
+    text-align: left;
+    border: 1px #e0e0e0 solid;
+    padding: 4px;
+    color: #000;
+} 
+
+#stand_title{
+    float: left;
+    text-align: left;
+    margin-left: 10px;
+    padding: 5px;
+}
+
+#location_content{
+    float: left;
+    font-size: 25px;
+    text-align: left;
+    margin-top: 30px;
+    margin-left: 10px;
+    font-weight: bold;
+    font-size: 22px;
+    width:100%;
+
+}
+
+#logo_company{
+    float: right;
+    height: auto;
+    margin-right: 15px;
+    margin-top: 0px;
+    width: auto;
+    margin-bottom: 20px;
+}
+
+#star_container{
+    float:right;
+    margin-right: 10px;
+    margin-top: -20px;
+    margin-left:0px;
+}
+
+#picture_container{
+
+    float: right;
+}
+
+#title_location{
+    float:left;
+    font-size: 22px;
+    font-weight: bold;
+    width: 100%;
+    margin-left: 10px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+#name_company{
+    float: left;
+    font-size: 20px;
+    width: 100%;
+    margin-left: 10px;
+    font-size: 17px;
+}
+
+#text_address{
+    float: left;
+    font-size: 15px;
+    margin-left: 10px;
+    width: 100%;
+}
+
+#text_cpostal{
+    float: left;
+    font-size: 15px;
+    margin-left: 10px;
+    margin-right: 7px;
+}
+
+#text_city{
+    float: left;
+    font-size: 15px;
+}
+
+#separator{
+    float: right;
+    width: 100%;
+}
+#first_row{
+    margin-top: 20px;
+}
+
+#last_row{
+    margin-bottom: 30px;
+}
+
+.contact_row{
+    float: left;
+    width: 100%;
+    margin-left: 10px;
+    height: 40px;
+}
+
+.image_contact_phone{
+    height: 24px;
+    width: 24px;
+    background: url("images/phone-icon.png") repeat scroll 0 0 transparent;
+    float: left;
+    margin-top: 8px;
+}
+
+.image_contact_fax{
+    height: 24px;
+    width: 24px;
+    background: url("images/fax-icon.png") repeat scroll 0 0 transparent;
+    float: left;
+    margin-top: 8px;
+}
+
+.image_contact_mail{
+    height: 24px;
+    width: 24px;
+    background: url("images/mail-icon.png") repeat scroll 0 0 transparent;
+    float: left;
+    margin-top: 8px;
+}
+
+.image_contact_web{
+    height: 24px;
+    width: 24px;
+    background: url("images/web-icon.png") repeat scroll 0 0 transparent;
+    float: left;
+    margin-top: 8px;
+}
+
+.image_contact_google{
+    height: 24px;
+    width: 24px;
+    background: url("images/googlemap-icon.png") repeat scroll 0 0 transparent;
+    float: left;
+    margin-top: 8px;
+}
+
+
+
+.title_contact{
+    font-weight: bold;
+    font-size: 16px;
+    margin-left: 5px;
+    float: left;
+    margin-top: 10px;
+}
+
+.link_contact{
+    text-decoration: underline;
+    margin-top: 10px;
+    margin-left: 10px;
+    float: left;
+    font-size: 16px;
+    color: #4a8bf4;
+}
+
+
+#buttonBack{    
+    background: url("images/back-bttn.png") repeat scroll 0 0 transparent;
+    color: #000000;
+    float: left;
+    font-size: 14px;
+    font-weight: bold;
+    height: 30px;
+    margin-left: 15px;
+    margin-top: 25px;
+    padding-left: 27px;
+    padding-top: 10px;
+    width: 60px;
+}
+
+#buttonBack:active{
+    background: url("images/back-selected-bttn.png") repeat scroll 0 0 transparent;
+    color: #CCC;
+    float: left;
+    font-size: 14px;
+    font-weight: bold;
+    height: 30px;
+    margin-left: 15px;
+    margin-top: 25px;
+    padding-left: 27px;
+    padding-top: 10px;
+    width: 60px;
+}
+
+#company_information{
+    display: block;
+    left: 0;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    position: absolute;
+    top: 133px;
+    width: 99%;
+}
+
+#company_favorited{
+    margin-top: 10px;
+}
+
+#enlarge{
+    background: url("images/enlarge-icon.png") repeat scroll 0 0 transparent;
+    height: 28px;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    width: 28px;
+    z-index: 200;
+}
+
+#container_carousel{
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+}
+
+
+/****************************/
+
+/************************************************************************
+-) Slider: only the following lines are necceassary for slider styling,
+   rest of the css file styles the demo page
+*************************************************************************/
+.aviaslider{ 
+    height:315px; 	/*this changes the height of the image slider*/
+    width:445px;
+    overflow: hidden;
+    position: relative;
+    background: #fff url(images/preload.gif) center center no-repeat;
+    float: right;
+    margin-right: 5px;
+    padding: 0px;
+}
+
+.aviaslider li, .aviaslider .featured{
+    display: block;
+    width:100%;
+    height:100%;
+    position: absolute;
+    top:0;
+    left:0;
+    z-index: 1;
+}
+
+.js_active .aviaslider li, .js_active .aviaslider .featured{
+    display:none;
+}
+
+.aviaslider img, .aviaslider a img, .aviaslider a{
+    border:none;
+    text-decoration: none;
+}
+
+.slidecontrolls{
+    position: absolute;
+    right: 15px;
+    top: 395px;
+    z-index: 200;
+}
+
+.slidecontrolls a{
+    height:20px;
+    width:12px;
+    display:block;
+    cursor: pointer;
+    background: transparent url(images/controlls.png) center bottom no-repeat;
+    float:left;
+    outline: none;
+}
+
+.slidecontrolls a:hover, .slidecontrolls .active_item{
+    background: transparent url(images/controlls.png) center top no-repeat;
+}
+
+/***************************** ABOUT ********************************************/
+
+
+#about_information{
+    display: block;
+    left: 0;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    position: absolute;
+    top: 95px;
+    width: 100%; 
+    padding-top: 70px;   
+    font-size: 11pt;
+}
+
+#title_about_1{
+    background: none repeat scroll 0 0 #000000;
+    color: #FFFFFF;
+    font-size: 31pt;
+    padding: 10px;
+    width: 550px; 
+    float:left;
+}
+
+#title_about_2{
+    background: none repeat scroll 0 0 #E40079;
+    color: #FFFFFF;
+    float: left;
+    font-size: 35pt;
+    font-weight: bold;
+    margin-left: -570px;
+    margin-top: 70px;
+    padding: 10px;
+    width: 310px;
+}
+
+#left_text_about{
+    float: left;
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#left_text_about_2{
+    float: left;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+
+
+#center_img_about{
+    float: left;
+    width: 100%;
+    text-align: center;
+}
+
+
+.floatLeft{
+    float: left; 
+    margin: 10px;
+}
+
+.floatRight{
+    float: right; 
+    margin: 10px;
+}
+
+
+.text_style_1{
+    font-size: 17pt;
+    font-weight: bold;
+}
+
+.text_style_2{
+    font-size: 13pt;
+    font-weight: bold;
+}
+
+.text_style_3{
+    font-size: 13pt;
+    font-weight: bold;
+}
+
+#about_contact{
+    float: left;
+    margin-bottom: 50px;
+    width: 100%;
+}
+
+#about_contact_left{
+    float: left;
+    margin-top: 15px;
+    margin-left: 10px;
+}
+
+
+#about_contact_left{
+    float: left;
+    width: 40%;
+    border-right:  1px solid #f3f3f3;
+}
+
+#about_contact_title{
+   margin-bottom: 5px; 
+}
+
+#about_contact_title_1,
+#about_contact_title_2,
+#about_contact_title_3,
+#about_contact_title_4,
+#about_contact_title_5,
+#about_contact_title_6{
+    float: left;
+    width: 100%;
+    margin-bottom: 2px;   
+    color: #000;
+}
+
+#about_contact_title_1{
+    font-size: 14pt;
+}
+
+#about_contact_title_3 a,
+#about_contact_title_4 a{
+    color: #000;
+}
+
+#about_contact_title_3,
+#about_contact_title_4{
+    font-weight: bold;
+    color: #000;
+}
+
+#about_contact_title_5 a,
+#about_contact_title_6 a{
+    color: #000;
+}
+
+
+#logos{
+    float:left;
+    width: 400px;
+    margin-left: 10px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+#logo_1{
+    float: left;
+    margin-left: 20px;
+    margin-top: 15px;
+}
+
+#logo_2{
+    float: left;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+#logo_3{
+    float: left;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+#logo_4{
+    float: left;
+    margin-left: 85px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#logo_5{
+    float: left;
+    margin-left: 30px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.share{
+    background: black;
+    font-size:14px;
+    color:white;
+    width:100px;
+    height:20px;
+}
